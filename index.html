@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>OOPS</title>
+            </head>
+            <body>
+                <div align="center">
+                        <h1>Welcome To Encapsulation</h1>
+                                <script>
+                                            class players
+                                                        {
+                                                                        constructor()
+                                                                                        {
+                                                                                                            var playername;
+                                                                                                                                var playerlevel;
+                                                                                                                                                }
+                getname()
+                                {
+                                                    return this.playername;
+                                                                    }
+                setname(playername){
+                                    this.playername= playername;
+                                                    }
+                getlevel(){
+                                    return this.playerlevel;
+                                                    }
+                setlevel(playerlevel){
+                                    this.playerlevel = playerlevel
+                                                    }
+                                                                }
+            var newplayer = new players();
+                        newplayer.setname("Rajdeep");
+                                    newplayer.setlevel(3);
+                                                document.write(newplayer.getname() + " " + newplayer.getlevel());
+        </script>
+    </div>
+</body>
+</html>
